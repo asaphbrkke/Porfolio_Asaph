@@ -1,0 +1,378 @@
+header {
+    background: linear-gradient(144deg, #0080C8, #171FCE, #5B15CD, #750CB5);
+    text-align: center;
+    color: white;
+    padding: 1em;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+footer {
+    background: linear-gradient(144deg, #0080C8, #171FCE, #5B15CD, #750CB5);
+
+
+}
+
+
+.espaço-nome {
+    letter-spacing: 100em;
+}
+
+
+.img-perfil1 {
+
+    background-size: cover;
+    /* Para cobrir toda a área do contêiner */
+    background-position: center;
+    /* Centraliza a imagem */
+    height: 60px;
+    /* Defina a altura conforme necessário */
+}
+
+.img-perfil {
+
+    width: 10%;
+    border-radius: 50%;
+    border-style: solid;
+    height: 200px;
+    overflow: hidden;
+}
+
+.conteudo {
+
+    background-color: white !important;
+    padding: 0em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100% !important;
+    border: 1px solid black;
+box-shadow: black;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+
+
+
+.principal {
+    text-align: center !important;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.img-icon {
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.txt-icon {
+
+    font-size: 210%;
+    margin-top: 1em;
+    margin-right: 6em;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .img-icon {
+        width: 300% !important;
+    }
+
+    .txt-icon {
+        font-size: 90% !important;
+        font-weight: 700;
+        margin-left: 5em;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .img-icon {
+        width: 100% !important;
+    }
+
+    .txt-icon {
+        font-size: 150% !important;
+        margin-left: 4em;
+        font-weight: 700;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .img-icon {
+        width: 100% !important;
+    }
+
+    .txt-icon {
+        font-size: 150% !important;
+        margin-left: 2em;
+        font-weight: 700;
+        margin-top: 2em;
+    }
+
+
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+    .img-icon {
+        width: 390% !important;
+    }
+
+    .txt-icon {
+        font-size: 110% !important;
+        font-weight: 700;
+        margin-left: 4em;
+
+    }
+
+
+}
+
+@media (min-width: 360px) and (max-width: 740px) {
+
+    .img-icon {
+        width: 520% !important;
+    }
+
+    .txt-icon {
+        font-size: 110% !important;
+        font-weight: 700;
+        margin-left: 4em;
+
+    }
+
+}
+
+
+@media (min-width: 412px) and (max-width: 915px) {
+    .img-icon {
+        width: 370% !important;
+    }
+
+    .txt-icon {
+        font-size: 100% !important;
+        font-weight: 700;
+        margin-left: 4em;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-icon {
+        width: 170% !important;
+    }
+
+    .txt-icon {
+        font-size: 180% !important;
+        font-weight: 700;
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+
+    .img-icon {
+        width: 170% !important;
+    }
+
+    .txt-icon {
+        font-size: 180% !important;
+        font-weight: 700;
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .img-icon {
+        width: 160% !important;
+    }
+
+    .txt-icon {
+        font-size: 250% !important;
+        font-weight: 700;
+        margin-left: 5em;
+        margin-top: 1em;
+    }
+
+}
+
+@media (min-width: 912px) and (max-width: 1368px) {
+    .img-icon {
+        width: 170% !important;
+    }
+
+    .txt-icon {
+        font-size: 200% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+    .img-icon {
+        width: 130% !important;
+    }
+
+    .txt-icon {
+        font-size: 100% !important;
+        font-weight: 700;
+        margin-left: 3em;
+
+    }
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+    .img-icon {
+        width: 1000% !important;
+    }
+
+    .txt-icon {
+        font-size: 60% !important;
+        font-weight: 700;
+        margin-left: 5em;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 914px) {
+    .img-icon {
+        width: 400% !important;
+    }
+
+    .txt-icon {
+        font-size: 400% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+    .img-perfil {
+        width: 30%;
+        border-radius: 50%;
+        border-style: solid;
+    }
+
+}
+
+@media screen and (max-width: 858px) {
+    .img-icon {
+        width: 200% !important;
+    }
+
+    .txt-icon {
+        font-size: 10% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 858px) {
+
+    .img-icon {
+        width: 450% !important;
+    }
+
+    .txt-icon {
+        font-size: 50% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+    header {
+        background: linear-gradient(144deg, #0080C8, #171FCE, #5B15CD, #750CB5);
+        text-align: center;
+        color: white;
+        padding: 2em;
+        font-size: 100%;
+
+    }
+
+    .img-perfil {
+        width: 40%;
+        border-radius: 50%;
+        border-style: solid;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 858px) {
+    .img-icon {
+        width: 450% !important;
+    }
+
+    .txt-icon {
+        font-size: 80% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+    header {
+        background: linear-gradient(144deg, #0080C8, #171FCE, #5B15CD, #750CB5);
+        text-align: center;
+        color: white;
+        padding: 2em;
+        font-size: 100%;
+
+    }
+
+    .img-perfil {
+        width: 40%;
+        border-radius: 50%;
+        border-style: solid;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 858px) {
+    .img-icon {
+        width: 200% !important;
+    }
+
+    .txt-icon {
+        font-size: 1800% !important;
+        font-weight: 700;
+        margin-left: 6em;
+
+    }
+
+    header {
+        background: linear-gradient(144deg, #0080C8, #171FCE, #5B15CD, #750CB5);
+        text-align: center;
+        color: white;
+        padding: 2em;
+        font-size: 100%;
+
+    }
+
+    .img-perfil {
+        width: 20%;
+        border-radius: 50%;
+        border-style: solid;
+    }
+}
